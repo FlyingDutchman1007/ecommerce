@@ -11,8 +11,8 @@ public class UserVO {
 
     private int id;
     private String name;
-    private Byte gender;
-    private int age;
+    private Integer gender;
+    private Integer age;
     private String telephone;
 
     public int getId() {
@@ -31,19 +31,19 @@ public class UserVO {
         this.name = name;
     }
 
-    public Byte getGender() {
+    public Integer getGender() {
         return gender;
     }
 
-    public void setGender(Byte gender) {
+    public void setGender(Integer gender) {
         this.gender = gender;
     }
 
-    public int getAge() {
+    public Integer getAge() {
         return age;
     }
 
-    public void setAge(int age) {
+    public void setAge(Integer age) {
         this.age = age;
     }
 

@@ -10,8 +10,8 @@ package com.ecommerce.service.model;
 public class UserModel {
     private int id;
     private String name;
-    private Byte gender;
-    private int age;
+    private Integer gender;
+    private Integer age;
     private String telephone;
     private String registerMode;
     private String thirdParty;
@@ -34,19 +34,19 @@ public class UserModel {
         this.name = name;
     }
 
-    public Byte getGender() {
+    public Integer getGender() {
         return gender;
     }
 
-    public void setGender(Byte gender) {
+    public void setGender(Integer gender) {
         this.gender = gender;
     }
 
-    public int getAge() {
+    public Integer getAge() {
         return age;
     }
 
-    public void setAge(int age) {
+    public void setAge(Integer age) {
         this.age = age;
     }
 
